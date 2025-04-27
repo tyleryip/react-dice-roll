@@ -28,7 +28,7 @@ const getFaceArray = (size: number, faces: string[], faceBg?: string): TSingleFa
 };
 
 export type TDiceRef = {
-    rollDice: (value: TValue) => void;
+    rollDice: (value?: TValue) => void;
 };
 
 const Dice = forwardRef((props: TProps, ref: React.MutableRefObject<TDiceRef>) => {
