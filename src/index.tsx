@@ -27,7 +27,7 @@ const getFaceArray = (size: number, faces: string[], faceBg?: string): TSingleFa
     }));
 };
 
-type TDiceRef = {
+export type TDiceRef = {
     rollDice: (value: TValue) => void;
 };
 
